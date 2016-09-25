@@ -6,5 +6,5 @@
   *[AFK Manager](https://forums.alliedmods.net/showthread.php?p=708265)
 
 ## Chat command
-  *!spectate <#userid|name>
+  * !spectate <#userid|name>
 ## Admin panel
