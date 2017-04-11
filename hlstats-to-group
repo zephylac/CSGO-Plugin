@@ -1,0 +1,7 @@
+#This file will allow you to add people into a sourcemod Group by parsing HLStats database 
+import mysql.connector 
+
+conn = mysql.connector.connect(host="localhost",user="root",password="XXX", database="hlstats")
+cursor = conn.cursor()
+
+conn.close()
