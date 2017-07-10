@@ -42,7 +42,7 @@ while lines[i] != "}":
 		temp2 = i
 	if tab[0] == "group" and tab[1] == "test" and userFound == 1:	
 		temp = "                "+lines[i]
-		rmLine2("/root/a.txt",temp)		
+		rmLine2(dataDir,temp)		
         i+=1
     exist = 0
     userFound = 0
