@@ -43,7 +43,7 @@ while lines[i] != "}":
         i+=1
     if(userFound == 1 and exist == 0) :
 	print(temp)
-	addLine2("/root/a.txt",temp)
+	addLine2(dataDir,temp)
     exist = 0
     userFound = 0
     i+=1
