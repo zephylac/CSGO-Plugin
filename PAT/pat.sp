@@ -238,11 +238,11 @@ public DBUpdate2 (Handle:owner, Handle:hndl, const String:error[], any:data)
 			
 			if(time - oldtime > 25200){
 				//lui donne le rang
-				System2_RunThreadCommand(CommandCallback,"python /root/add.py serverfiles/csgo/addons/config/admins.cfg %s",authid);
+				System2_RunThreadCommand(CommandCallback,"python /root/add.py serverfiles/csgo/addons/configs/admins.cfg %s",authid);
 			}
 			else{
 				//lui enleve le rang
-				System2_RunThreadCommand(CommandCallback,"python /root/rm.py serverfiles/csgo/addons/config/admins.cfg %s",authid);	
+				System2_RunThreadCommand(CommandCallback,"python /root/rm.py serverfiles/csgo/addons/configs/admins.cfg %s",authid);	
 			}
 		}
 	}
